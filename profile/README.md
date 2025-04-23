@@ -35,8 +35,32 @@ Utilizamos **Arquitetura Hexagonal (Ports and Adapters)** em cada microserviço.
 
 
 ```
+```bash
 
-app/ ├── autenticacao/ │ ├── servico-de-autenticacao # Domínio + regras + adapters │ └── api-de-autenticacao # Interface REST ├── catalogo/ │ ├── servico-de-catalogo │ └── api-de-catalogo ├── pagamentos/ │ ├── servico-de-pagamentos │ └── api-de-pagamentos ├── preview/ │ ├── servico-de-preview │ └── api-de-preview ├── template/ │ ├── servico-de-template │ └── api-de-template ├── orquestrador/ │ ├── servico-de-orquestracao │ └── api-de-orquestracao ├── front/ │ ├── inicio │ ├── pagina-de-preview │ ├── pagina-de-pagamento │ └── sobrenos
+app/
+ ├── autenticacao/
+ │ ├── servico-de-autenticacao # Domínio + regras + adapters
+ │ └── api-de-autenticacao # Interface REST
+ ├── catalogo/
+ │ ├── servico-de-catalogo
+ │ └── api-de-catalogo
+ ├── pagamentos/
+ │ ├── servico-de-pagamentos
+ │ └── api-de-pagamentos
+ ├── preview/
+ │ ├── servico-de-preview
+ │ └── api-de-preview
+ ├── template/
+ │ ├── servico-de-template
+ │ └── api-de-template
+ ├── orquestrador/
+ │ ├── servico-de-orquestracao
+ │ └── api-de-orquestracao
+ ├── front/
+ │ ├── inicio
+ │ ├── pagina-de-preview
+ │ ├── pagina-de-pagamento
+ │ └── sobrenos
 
 ```
 
